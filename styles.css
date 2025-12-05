@@ -54,6 +54,9 @@ body {
     height: 100px;
     object-fit: contain;
     flex-shrink: 0;
+    background: white;
+    padding: 10px;
+    border-radius: 16px;
 }
 
 .app-info h2 {
