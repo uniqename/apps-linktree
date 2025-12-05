@@ -19,50 +19,7 @@ body {
 .container {
     max-width: 680px;
     margin: 0 auto;
-    padding-bottom: 40px;
-}
-
-/* Profile Section */
-.profile-section {
-    text-align: center;
-    margin-bottom: 40px;
-    animation: fadeInDown 0.8s ease-out;
-}
-
-.profile-image {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 4px solid #dee2e6;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.profile-title {
-    color: #2F5C4F;
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
-}
-
-.profile-bio {
-    color: #4a5568;
-    font-size: 16px;
-    margin-bottom: 0;
-    font-weight: 600;
-    text-shadow: 0 1px 4px rgba(255, 255, 255, 0.9);
+    padding: 40px 0;
 }
 
 /* App Section */
@@ -93,12 +50,11 @@ body {
 }
 
 .app-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 18px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     flex-shrink: 0;
+    filter: brightness(0) invert(1);
 }
 
 .app-info h2 {
